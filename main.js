@@ -29,7 +29,7 @@ fetch("https://meowfacts.herokuapp.com")
     return response.json();
   })
   .then((data) => {
-    let randomfactHTML = `here is a random fact that is different with every visit: ${data.data[0]}`;
+    let randomfactHTML = `Here is a random fact that is different with every visit: ${data.data[0]}`;
     console.log(data);
     console.log(data.data);
     console.log(randomfactHTML);
